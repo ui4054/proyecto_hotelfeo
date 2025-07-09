@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Fondo azul clarito */
+}
+
+header {
+    text-align: center; /* Centra el texto en el encabezado */
+    background-color: #003366; /* Fondo azul oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen superior e inferior */
+}
+
+/* Contenedor Flexbox */
+.flex-container {
+    display: flex; /* Activa el modo Flexbox */
+     /* Espacia uniformemente los elementos */
+    flex-direction:column;
+    align-items: center; /* Centra los elementos verticalmente */
+    /* Permite que los elementos se ajusten a varias líneas */
+    gap: 20px; /* Espaciado entre los elementos */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #e0e0e0; /* Fondo gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.fila {
+    display: flex;
+    flex-direction:horizontal;
+}
+
+
+/* Elementos Flexbox */
+.item {
+    background-color: #007acc; /* Fondo azul intermedio */
+    
+    color: white; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    flex: 1; /* Hace que todos los elementos crezcan proporcionalmente */
+    min-width: 100px; /* Tamaño mínimo de los elementos */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de los elementos */
+}
